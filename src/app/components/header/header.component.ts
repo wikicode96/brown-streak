@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { LogoSmallComponent } from '../logo-small/logo-small.component'
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-header',
   standalone: true,
   imports: [LogoSmallComponent],
-  templateUrl: './footer.component.html',
+  templateUrl: './header.component.html',
 })
-export class FooterComponent {
+export class HeaderComponent {
   nav_options = ["Home", "Stations", "Timetable"];
 }
