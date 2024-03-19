@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LogoSmallComponent } from '../logo-small/logo-small.component'
+import { LogoSmallComponent } from '../../logo-small/logo-small.component'
 
 @Component({
   selector: 'app-footer',
