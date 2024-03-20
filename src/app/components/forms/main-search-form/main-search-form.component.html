@@ -1,0 +1,36 @@
+<form class="bg-warning rounded-3 px-4 py-5">
+    <fieldset class="d-flex flex-row gap-4 mb-3">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="tripDirection" [formControl]="roundTripOrOneWay" value="roundTrip">
+            <label class="form-check-label" for="credit">Round trip</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="tripDirection" [formControl]="roundTripOrOneWay" value="oneWay">
+            <label class="form-check-label" for="credit">One way</label>
+        </div>
+    </fieldset>
+    <fieldset class="row">
+        <div class="col-md-4 mb-4">
+            <select class="form-select" [formControl]="stationFrom" required>
+                <option value="" disabled selected hidden>From</option>
+                @for (station of stationsMap.entries(); track stationsMap) {
+                    <option>{{ station[0] }}</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-4 mb-4">
+            <select class="form-select" [formControl]="stationTo" required>
+                <option value="" disabled selected hidden>To</option>
+                @for (station of stationsMap.entries(); track stationsMap) {
+                    <option>{{ station[0] }}</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="d-flex flex-row gap-4">
+                <input class="form-control" type="text" placeholder="Passengers" [formControl]="passengers" value="" required>
+                <button type="button" class="btn btn-dark" (click)="calculate()">Calculate...</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
