@@ -1,0 +1,9 @@
+<div class="row text-center">
+    @for (img of images; track img; let index = $index) {
+        <div class="col-md-4">
+            <img class="img-fluid rounded-3 mb-3" [src]="images[index]" [alt]="titles[index] + ' Img'">
+            <h3 class="pb-2 fw-semibold">{{ titles[index] }}</h3>
+            <p>{{ paragraphs[index] }}</p>
+        </div>
+    }
+</div>
