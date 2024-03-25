@@ -1,0 +1,24 @@
+<div class="map">
+    <img class="map-img" src="./assets/img/SanAndreasMapHD.webp" alt="San Andreas Map">
+    <img style="left: 78%; top: 79%;" (click)="onClickPinMarker('Unity Station')" class="pin-marker" src="../../../../assets/img/Pin_Marker.png" alt="Pin Marker">
+    <img style="left: 63%; top: 69%;" (click)="onClickPinMarker('Market Station')" class="pin-marker" src="../../../../assets/img/Pin_Marker.png" alt="Pin Marker">
+    <img style="left: 16.2%; top: 44.5%;" (click)="onClickPinMarker('Cranberry Station')" class="pin-marker" src="../../../../assets/img/Pin_Marker.png" alt="Pin Marker">
+    <img style="left: 73%; top: 2.5%;" (click)="onClickPinMarker('Yellow Bell Station')" class="pin-marker" src="../../../../assets/img/Pin_Marker.png" alt="Pin Marker">
+    <img style="left: 95.25%; top: 18%;" (click)="onClickPinMarker('Sobell Rail Yards')" class="pin-marker" src="../../../../assets/img/Pin_Marker.png" alt="Pin Marker">
+    <img style="left: 96.5%; top: 25%;" (click)="onClickPinMarker('Linden Station')" class="pin-marker" src="../../../../assets/img/Pin_Marker.png" alt="Pin Marker">
+</div>
+
+<!--
+@for (row of stationsMap.entries(); track stationsMap){
+    <div class="row mb-3">
+        <div class="col-4">
+            <img [src]="row[1][0]" [alt]="row[0]">
+        </div>
+        <div class="col-4">
+            <p>{{ row[1][1] }}</p>
+        </div>
+        <div class="col-4">
+            <img class="img-fluid" [src]="row[1][2]" [alt]="row[0] + ' Map'">
+        </div>
+    </div>
+}-->

@@ -4,6 +4,7 @@ import { SectionComponent } from '../../components/layouts/section/section.compo
 import { FooterComponent } from '../../components/layouts/footer/footer.component'
 import { Heading1Component } from '../../components/fonts/heading1/heading1.component'
 import { Heading2Component } from '../../components/fonts/heading2/heading2.component'
+import { StationsLayoutComponent } from '../../components/layouts/stations-layout/stations-layout.component';
 
 @Component({
   selector: 'stations-page',
@@ -12,6 +13,7 @@ import { Heading2Component } from '../../components/fonts/heading2/heading2.comp
     HeaderComponent,
     SectionComponent,
     FooterComponent,
+    StationsLayoutComponent,
     Heading1Component,
     Heading2Component],
   templateUrl: './stations-page.component.html',
