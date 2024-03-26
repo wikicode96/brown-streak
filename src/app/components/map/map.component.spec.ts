@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StationsLayoutComponent } from './stations-layout.component';
+import { MapComponent } from './map.component';
 
-describe('StationsLayoutComponent', () => {
-  let component: StationsLayoutComponent;
-  let fixture: ComponentFixture<StationsLayoutComponent>;
+describe('MapComponent', () => {
+  let component: MapComponent;
+  let fixture: ComponentFixture<MapComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [StationsLayoutComponent]
+      imports: [MapComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(StationsLayoutComponent);
+    fixture = TestBed.createComponent(MapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
