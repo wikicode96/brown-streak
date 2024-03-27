@@ -5,6 +5,7 @@ import { FooterComponent } from '../../components/layouts/footer/footer.componen
 import { Heading1Component } from '../../components/fonts/heading1/heading1.component'
 import { Heading2Component } from '../../components/fonts/heading2/heading2.component'
 import { MapComponent } from '../../components/map/map.component';
+import { StationsDetailsComponent } from '../../components/layouts/stations-details/stations-details.component';
 
 @Component({
   selector: 'stations-page',
@@ -12,6 +13,7 @@ import { MapComponent } from '../../components/map/map.component';
   imports: [
     HeaderComponent,
     SectionComponent,
+    StationsDetailsComponent,
     FooterComponent,
     MapComponent,
     Heading1Component,
