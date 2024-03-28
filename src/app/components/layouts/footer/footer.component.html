@@ -7,7 +7,7 @@
 
             <ul class="nav col-md-4 justify-content-end">
                 @for (option of nav_options; track option) {
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-white">{{ option }}</a></li>
+                    <li class="nav-item"><a [href]="option[1]" class="nav-link px-2 text-white">{{ option[0] }}</a></li>
                 }
             </ul>
         </div>

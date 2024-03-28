@@ -8,5 +8,9 @@ import { LogoSmallComponent } from '../../logo-small/logo-small.component'
   templateUrl: './footer.component.html',
 })
 export class FooterComponent {
-  nav_options = ["Home", "Stations", "Timetable"];
+  nav_options = [
+    ["Home", "/"],
+    ["Stations", "/stations"],
+    ["Timetable", "#"]
+  ];
 }
