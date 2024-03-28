@@ -40,5 +40,12 @@ export class StationsDetailsComponent {
       'Without Phone number',
       '(702) 699-8200'
     ];
-    airportDistance: string[] = [];
+    airportDistance: string[] = [
+      '1km',
+      '2km',
+      '1.5km',
+      '1.5km',
+      '1.25km',
+      '1.25km'
+    ];
 }
