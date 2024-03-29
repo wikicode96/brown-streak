@@ -1,6 +1,6 @@
 <div class="row">
     @for (img of images; track img; let index = $index) {
-    <div class="col-md-4">
+    <div class="col-md-4 pb-3">
         <img class="img-fluid rounded-3 mb-3" [src]="images[index]" [alt]="titles[index] + ' Img'">
         <h3 class="pb-2 fw-semibold text-center">{{ titles[index] }}</h3>
         <!-- Dirección -->
