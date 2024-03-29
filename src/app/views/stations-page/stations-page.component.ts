@@ -18,8 +18,7 @@ import { StationsDetailsComponent } from '../../components/layouts/stations-deta
     MapComponent,
     Heading1Component,
     Heading2Component],
-  templateUrl: './stations-page.component.html',
-  styleUrl: './stations-page.component.css'
+  templateUrl: './stations-page.component.html'
 })
 export class StationsPageComponent {
 

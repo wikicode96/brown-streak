@@ -4,8 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'stations-details',
   standalone: true,
   imports: [],
-  templateUrl: './stations-details.component.html',
-  styleUrl: './stations-details.component.css'
+  templateUrl: './stations-details.component.html'
 })
 export class StationsDetailsComponent {
   images: string[] = [
