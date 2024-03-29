@@ -11,6 +11,6 @@ export class FooterComponent {
   nav_options = [
     ["Home", "/"],
     ["Stations", "/stations"],
-    ["Timetable", "#"]
+    //["Timetable", "#"]
   ];
 }

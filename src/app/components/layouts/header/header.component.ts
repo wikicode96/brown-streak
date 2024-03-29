@@ -11,6 +11,6 @@ export class HeaderComponent {
   nav_options = [
     ["Home", "/"],
     ["Stations", "/stations"],
-    ["Timetable", "#"]
+    //["Timetable", "#"]
   ];
 }
