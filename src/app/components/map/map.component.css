@@ -1,0 +1,21 @@
+.map {
+    position: relative;
+}
+
+/* Center of Point Base of Img */
+.pin-marker-base {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    /* background-color: greenyellow; */
+    cursor: pointer;
+}
+
+/* Image PNG */
+.pin-marker-base img {
+    position: absolute;
+    height: 40px;
+    width: auto;
+    left: -11px;
+    bottom: 0px;
+}
