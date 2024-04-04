@@ -6,7 +6,7 @@
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 @for (option of nav_options; track option) {
-                    <li><a href="#" class="nav-link px-2 text-white">{{ option }}</a></li>
+                    <li><a [routerLink]="option[1]" class="nav-link px-2 text-white">{{ option[0] }}</a></li>
                 }
             </ul>
         </div>

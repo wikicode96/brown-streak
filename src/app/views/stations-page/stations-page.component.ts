@@ -1,28 +1,25 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
 import { HeaderComponent } from '../../components/layouts/header/header.component'
 import { SectionComponent } from '../../components/layouts/section/section.component'
-import { MainSearchFormComponent } from '../../components/forms/main-search-form/main-search-form.component'
-import { AlbumComponent } from '../../components/layouts/album/album.component'
 import { FooterComponent } from '../../components/layouts/footer/footer.component'
 import { Heading1Component } from '../../components/fonts/heading1/heading1.component'
 import { Heading2Component } from '../../components/fonts/heading2/heading2.component'
+import { MapComponent } from '../../components/map/map.component';
+import { StationsDetailsComponent } from '../../components/layouts/stations-details/stations-details.component';
 
 @Component({
-  selector: 'home-page',
+  selector: 'stations-page',
   standalone: true,
   imports: [
-    RouterModule,
     HeaderComponent,
     SectionComponent,
-    MainSearchFormComponent,
-    AlbumComponent,
+    StationsDetailsComponent,
     FooterComponent,
+    MapComponent,
     Heading1Component,
-    Heading2Component
-  ],
-  templateUrl: './home-page.component.html'
+    Heading2Component],
+  templateUrl: './stations-page.component.html'
 })
-export class HomePageComponent {
+export class StationsPageComponent {
 
 }

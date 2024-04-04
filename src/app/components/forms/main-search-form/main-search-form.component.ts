@@ -20,15 +20,15 @@ export class MainSearchFormComponent {
 
   constructor() {
     this.stationsMap.set("Unity Station", 1);
-    this.stationsMap.set("Market Station", 5);
-    this.stationsMap.set("Cranberry Station", 11);
-    this.stationsMap.set("Yellow Bell Station", 2);
-    this.stationsMap.set("Sobell Rail Yards", 1);
-    this.stationsMap.set("Linden Station", 4);
+    this.stationsMap.set("Market Station", 4.5);
+    this.stationsMap.set("Cranberry Station", 5.5);
+    this.stationsMap.set("Yellow Bell Station", 1.25);
+    this.stationsMap.set("Sobell Rail Yards", 0.5);
+    this.stationsMap.set("Linden Station", 4.5);
   }
 
   calculate() {
-    const PRICE_PER_KILOMETER: number = 1;
+    const PRICE_PER_KILOMETER: number = 5;
 
     if (this.sanitizeFields()) {
       let roundTripOrOneWay: string | null = this.roundTripOrOneWay.value;
