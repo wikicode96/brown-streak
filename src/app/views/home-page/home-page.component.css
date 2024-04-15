@@ -1,0 +1,7 @@
+main {
+    background-image: url('../../../assets/img/Brown_Streak_BG.webp'); /* 1365 x 767 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center; */
+    height: 700px;
+}

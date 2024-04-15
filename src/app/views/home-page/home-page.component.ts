@@ -21,7 +21,8 @@ import { Heading2Component } from '../../components/fonts/heading2/heading2.comp
     Heading1Component,
     Heading2Component
   ],
-  templateUrl: './home-page.component.html'
+  templateUrl: './home-page.component.html',
+  styleUrl: './home-page.component.css'
 })
 export class HomePageComponent {
 
